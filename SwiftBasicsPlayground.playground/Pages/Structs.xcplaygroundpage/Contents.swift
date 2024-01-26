@@ -68,11 +68,9 @@ markUserAsPremium2()
 
 struct UserModel3 {
     let name: String
-    private(set, get) var isPremium: Bool
+    private(set) var isPremium: Bool
     
     mutating func updateIsPremium() {
         isPremium = true
     }
 }
-
-UserModel3(name: "Lad", isPremium: false).isPremium = true

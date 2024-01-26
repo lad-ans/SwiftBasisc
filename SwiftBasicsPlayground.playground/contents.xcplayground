@@ -11,5 +11,12 @@
         <page name='Tuples'/>
         <page name='Structs'/>
         <page name='Enums'/>
+        <page name='Classes'/>
+        <page name='AccessControl'/>
+        <page name='Arrays'/>
+        <page name='Dictionaries'/>
+        <page name='FilterSortMap'/>
+        <page name='ForLoops'/>
+        <page name='Protocols'/>
     </pages>
 </playground>

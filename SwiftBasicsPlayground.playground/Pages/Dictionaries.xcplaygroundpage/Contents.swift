@@ -1,7 +1,9 @@
-//: [Previous](@previous)
-
 import Foundation
 
-var greeting = "Hello, playground"
+var myDictionaries: [String:Any] = ["name": "Ladino", "age": 28]
 
-//: [Next](@next)
+var someDict: [Int:String] = [1: "One", 2: "Two", 3: "Three"]
+
+print(myDictionaries)
+
+let dic: Dictionary<String, Any> = ["Ladino": 34]
